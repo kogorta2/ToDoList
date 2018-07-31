@@ -5,6 +5,41 @@
     <title>ToDoList</title>
 </head>
 <body>
-
+<div class="usersManagement">
+    <div class="addUser">
+        <input type="text" placeholder="User name"/>
+        <input type="text" placeholder="User email"/>
+        <input type="button" value="Add user"/>
+    </div>
+    <ul class="users">
+        <li>
+            <p class="userName"></p>
+            <p class="userEmail"></p>
+            <label>Assigned<input type="checkbox"/></label>
+            <button type="button">Delete user</button>
+        </li>
+    </ul>
+</div>
+<div class="tasksManagement">
+    <div class="addTask">
+        <input type="text" placeholder="Task title"/>
+        <textarea placeholder="Task description"></textarea>
+        <input type="text" placeholder="Task ID"/>
+        <input type="button" value="Add task"/>
+    </div>
+    <ul class="tasks">
+        <li>
+            <h2 class="taskTitle"></h2>
+            <p>Create date
+                <span class="createDate">date/month/year hours:minutes</span>
+            </p>
+            <p class="taskDescription"></p>
+            <p>Assigned to<span></span>users</p>
+            <div>
+                
+            </div>
+        </li>
+    </ul>
+</div>
 </body>
 </html>
